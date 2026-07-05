@@ -93,7 +93,7 @@ a:hover{
     justify-content: space-between;
 }
 .products{
-    width: 500px;
+    width: 400px;
     height: 600px;
     border-radius: 20px;
     margin: 20px;
@@ -125,5 +125,14 @@ a:hover{
     background-color: pink;
 }
 .product9{
+    background-color: gray;
+}
+.product10{
     background-color: brown;
+}
+.product11{
+    background-color: chartreuse;
+}
+.product12{
+    background-color: aquamarine;
 }
