@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <img src="../images/Logo.png" alt="" class="logo" />
+      <a href="./home.html" style="color: rgb(255, 0, 0)">Home</a>
+      <a href="./product.html">Product</a>
+      <a href="./about.html">About</a>
+      <a href="./profile.html">Profile</a>
+      <div class="input-group rounded" style="width: 250px; position: absolute; top: 35px; right: 250px">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"aria-describedby="search-addon"/>
+        <span class="input-group-text border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
+      <div class="profile d-flex">
+        <h5 class="profile-trigger">Vann Thai</h5>
+        <h5><img src="../images/flag.png" alt="" class="profile-flag" /></h5>
+        <h6>$00.00</h6>
+        <img src="../images/nang.jpg" alt="" class="profile-avatar" />
+      </div>
+    </div>
+
+    <div class="container m-auto">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <buttontype="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></buttontype=>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/desktop.png" class="slide d-block w-100" alt="Featured product banner"/>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/keyboard.png" class="slide d-block w-100" alt="Featured product banner"/>
+          </div>
+          <div class="carousel-item">
+            <img src="../images/chair.png" class="slide d-block w-100" alt="Featured product banner"/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <section class="home-section mt-4">
+      <div class="section-title">
+        <h2>🔥 New & Trend</h2>
+        <a href="./product.html">View all →</a>
+      </div>
+      <div class="product-grid home-grid">
+        <article class="product-card">
+          <img src="../images/gaming_laptp.png" class="product-card-image" alt="Gaming Laptop"/>
+          <div class="card-body">
+            <h4>Gaming Laptop</h4>
+            <p>High-speed performance for serious work and gaming.</p>
+            <div class="price">$899</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/Keyboard1.png" class="product-card-image" alt="Mechanical Keyboard"/>
+          <div class="card-body">
+            <h4>Mechanical Keyboard</h4>
+            <p>Comfortable and stylish for long typing sessions.</p>
+            <div class="price">$129</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/wireless_mouse.png" class="product-card-image object-fit-fill" alt="Wireless Mouse"/>
+          <div class="card-body">
+            <h4>Wireless Mouse</h4>
+            <p>Precision control with a smooth and lightweight feel.</p>
+            <div class="price">$59</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/speaker.png" class="product-card-image" alt="Studio Speaker"/>
+          <div class="card-body">
+            <h4>Studio Speaker</h4>
+            <p>Deep sound quality with a modern and elegant design.</p>
+            <div class="price">$199</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="section-title">
+        <h2>📣 Discount Offers</h2>
+        <a href="./product.html">View all →</a>
+      </div>
+      <div class="product-grid home-grid">
+        <article class="product-card">
+          <img src="../images/monitor.png" class="product-card-image" alt="Ultra Wide Monitor"/>
+          <div class="card-body">
+            <h4>Ultra Wide Monitor</h4>
+            <p>Perfect for multitasking, streaming, and immersive work.</p>
+            <div class="price">$349</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/ssd.png" class="product-card-image" alt="Portable SSD"/>
+          <div class="card-body">
+            <h4>Portable SSD</h4>
+            <p>Fast and reliable storage for files on the go.</p>
+            <div class="price">$109</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/headset.png" class="product-card-image" alt="Smart Headset"/>
+          <div class="card-body">
+            <h4>Smart Headset</h4>
+            <p>Clear calls and immersive sound for daily use.</p>
+            <div class="price">$79</div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="../images/charger.png" class="product-card-image" alt="Compact Charger"/>
+          <div class="card-body">
+            <h4>Compact Charger</h4>
+            <p>Fast charging performance in a sleek and portable design.</p>
+            <div class="price">$39</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="container-fluid d-flex flex-row" style="height: 300px; align-items: center; justify-content: space-around; margin-top: 50px;">
+      <div class="list1 d-flex flex-column" style="line-height: 70px">
+        <a href="">Support</a>
+        <a href="">Shipping</a>
+        <a href="">Warranty</a>
+        <a href="">Contact</a>
+      </div>
+      <div class="list1 d-flex flex-column" style="line-height: 70px">
+        <a href="">News</a>
+        <a href="">Deals</a>
+        <a href="">Community</a>
+        <a href="">Blog</a>
+      </div>
+      <div class="list1 d-flex flex-column" style="line-height: 70px">
+        <a href="">Instagram</a>
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">YouTube</a>
+      </div>
+      <div class="list1 d-flex flex-column" style="line-height: 70px">
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <a href="">Careers</a>
+        <a href="">FAQ</a>
+      </div>
+    </div>
+  </body>
+</html>
