@@ -7,14 +7,18 @@ body {
   background-color: rgb(27, 27, 27);
   overflow-x: hidden;
   position: relative;
-  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-top: 110px;
 }
 .nav {
   width: 100%;
   max-width: 100%;
   height: 100px;
-  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: top;
@@ -210,6 +214,84 @@ a:hover {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 20px;
 }
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding-top: 120px;
+  }
+
+  .nav {
+    height: auto;
+    padding: 20px 16px;
+    gap: 12px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 110px;
+    height: 70px;
+  }
+
+  .nav .input-group {
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100% !important;
+    margin-top: 8px;
+  }
+
+  .profile img,
+  .profile h5,
+  .profile h6 {
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+
+  .profile-avatar {
+    position: relative;
+    right: auto !important;
+    top: auto !important;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .container-fluid {
+    flex-direction: column;
+    gap: 12px;
+    height: auto !important;
+    padding: 20px;
+    align-items: flex-start;
+  }
+}
+
 .product-card {
   background: white;
   border-radius: 16px;
